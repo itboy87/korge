@@ -45,6 +45,8 @@ gradle-publish-plugin = "1.1.0"
 closure-compiler = "v20210808"
 # https://repo.maven.apache.org/maven2/org/jetbrains/intellij/deps/intellij-coverage-agent/
 
+nashorn = "15.4"
+
 [libraries]
 korlibs-audio = { module = "com.soywiz:korlibs-audio", version.ref = "korlibs" }
 korlibs-image = { module = "com.soywiz:korlibs-image", version.ref = "korlibs" }
@@ -72,6 +74,9 @@ gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 gradle-publish-plugin = { module = "com.gradle.publish:plugin-publish-plugin", version.ref = "gradle-publish-plugin" }
 closure-compiler = { module = "com.google.javascript:closure-compiler", version.ref = "closure-compiler" }
 jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version.ref = "jgit" }
+nashorn-core = { module = "org.openjdk.nashorn:nashorn-core", version.ref = "nashorn" }
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+asm-util = { module = "org.ow2.asm:asm-util", version.ref = "asm" }
 
 [bundles]
 kotlin-test = ["junit", "kotlin-test", "kotlin-test-junit"]
